@@ -9,11 +9,11 @@
 
 using namespace std;
 
-class Algorithm abstract
+class Algorithm abstract // РѕР±СЃС‚СЂР°РєС‚РЅС‹Р№ РєР»Р°СЃСЃ, РєРѕС‚РѕСЂС‹Р№ РЅРµ РјРѕР¶РµС‚ РёРјРµС‚СЊ СЂРµР°Р»РёР·Р°С†РёРё
 {
 protected:
-	int iter_count, comparison_count; // количество итераций и сравненей
-	long long elapsed; // время затраченное на работу алгоритма
+	int iter_count, comparison_count; // РєРѕР»РёС‡РµСЃС‚РІРѕ РёС‚РµСЂР°С†РёР№ Рё СЃСЂР°РІРЅРµРЅРµР№
+	long long elapsed; // РІСЂРµРјСЏ Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° СЂР°Р±РѕС‚Сѓ Р°Р»РіРѕСЂРёС‚РјР°
 	string name;
 	string delimiter = "----------------------\n";
 
